@@ -9,6 +9,17 @@ let moreEmails = [
   {"name":"Celina Freda","pic":"https://robohash.org/itaqueenimrerum.jpg?size=50x50\u0026set=set1","email":"cfreda6@ustream.tv","subject":"IMAX: Hubble 3D","body":"Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.\n\nMaecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.\n\nCurabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.","user":"cfreda6","date":"2/26/2018","time":"11:06 PM"}
 ];
 
+var timeoutID;
+
+function delayedAlert() {
+  timeoutID = window.setTimeout(window.alert, 2000, 'That was really slow!');
+}
+
+function clearAlert() {
+  window.clearTimeout(timeoutID);
+}
+
+
 fetch('https://my.api.mockaroo.com/email2.json?key=fed58100&rows=7')
 .then (function(response){
   return response.json();
