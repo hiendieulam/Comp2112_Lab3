@@ -1,0 +1,678 @@
+/** Import normalize.css **/
+@import url("css/normalize.css");
+body {
+    font: 100%/1.25 Helvetica, Arial, sans-serif;
+    color: #333;
+    width:100%;
+}
+/** Image responsiveness when changing the device used **/
+img {
+    width: 100%;
+}
+
+/**************** HEADER ****************/
+/** A format as background-color, border, width, position,font-size,.. in header **/
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 20%;
+    position: fixed;
+    top: 0;
+    padding-left: 1%; 
+    border-top: 1px solid white;
+    border-bottom: 5px solid #cc9999;
+    font-size: 1.2em;
+    color: white;
+    z-index: 100;
+    font-family: oswald;
+}
+/** A format as padding, background, color, display, position, width.... for navigation in header **/
+header nav {
+    overflow: hidden;
+}
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;	
+    float: left;
+    position: relative;
+    left: 40%;
+}
+header nav ul li {
+    float: right;
+    position: relative;	
+    right: 1%;
+    margin-top: 7%;
+
+}
+header nav a {
+    display: block;
+    padding-right: 1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 1%;
+    margin-top: 0;
+
+}
+header nav a:hover {
+    color: #cc9999;
+    text-transform: uppercase;
+}
+/** Logo uses an image placeholder service with the featured image **/
+#logo{
+    margin: 0;
+    float: left;
+    width: 204px;
+    height: 84px;
+    display: block;
+}
+a {
+    color:white;
+    text-decoration: none;
+
+}
+a:hover {
+    color:#cc9999;
+    font-weight: bold;
+}
+/** Hide the hamburger menu icon button **/
+#menu-icon {
+    display: none;
+    margin-left: 45%;
+    margin-top: -5%;
+}
+li {
+    display: inline-block;
+    padding: 10px;
+}
+
+
+/**************** MAIN  ****************/
+/** Format as margin, max-width, padding, border, box-shadow...for all the class in main  **/
+main {
+    margin: 5.5% auto 5%;
+    max-width: 100%;
+    padding: 5px;
+}
+
+.column {
+    border: 3px solid #666;
+}
+/** when the mouse moves into the frame it will change color **/
+.column:hover {
+    border: 3px solid #cc9999;
+}
+
+/**************** CONTENT ****************/
+/** Format as margin, position, width, border, color, background, text-shadow, box-shadow, line-height, font size, font family,...for all the class, the id, h1, h2, h3, rows, and columns in the content **/
+#content {
+    margin-top: 5% ;
+}
+.row {
+    padding-left:0.01%;
+    padding-right:0.01%;
+}
+/** COLUMN FORMAT **/
+div .col-sm-3 well{
+    background-color: #ccc ;
+}
+div .well {
+    background-color: white ;
+    border: 1px solid #C2C2C2;
+    box-shadow: 1px -1px 2px -1px #999;
+    padding: 1% 1% 1% 1%;
+}
+div .well h1 {
+    font-family: oswald;
+    font-size: 1.1em;
+    color: black;
+    text-align: left;
+    padding-left: 1.5%;
+    line-height: 26px;
+    text-shadow: 0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+/** h3 format as margin, font size, padding, text align, color,... **/
+h2.linkshare {
+    font-family: oswald;
+    font-size: 1.2em;
+    color: red;
+    text-align: left;
+    padding-left: 1.5%;
+    font-weight: bold;
+
+}
+/** h3 format as margin, font size, padding, text align, color,... **/
+div div div h3 {
+    font-family: oswald;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    padding-left: 1.5%;
+}
+h3 span.label-ship:nth-of-type(1) {
+    font-family: oswald;
+    font-size: 14px;
+    color: green;
+    text-align: left;
+    padding-left: 1.5%;
+}
+
+img.img-linknetwork {
+    width:17px;
+    height:17px;
+    margin-top: -2%;
+}
+div h3 img.star {
+    width:13px;
+    height:13px;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+/** Seclect size format as margin, padding, float, width,... **/
+#ringsize {
+    width:97%;
+    float: left;
+    font-size: 13px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-bottom: 1.5%;
+    padding-left: 1.5%;
+    margin-left: 1.5%;
+}
+#basic-coverage {
+    width:97%;
+    float: left;
+    font-size: 13px;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    margin-bottom: 1.5%;
+    padding-left: 1.5%;
+    margin-left: 1.5%;
+}
+/** P format as margin, padding, font size, font family,... **/
+div div div p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: #91a4b2;
+    text-align: left;
+    padding-left: 1.5%;
+    margin-bottom: 1.5%;
+}
+/**  Button format  **/
+button.btn.btn-outline-success {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    background-color: #91a4b2;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    width:70%;
+    box-shadow: 1px 1px 3px  #BEBEBE inset;
+}
+/**  Button format when move the mouse on  **/
+button.btn.btn-outline-success:hover {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    background-color: #cc9999;
+    color: white;
+    text-align: center;
+    margin-bottom: 1.5%;
+    width:70%;
+    box-shadow: 1px 1px 3px  #BEBEBE inset;
+    margin-top: 1.5%;
+}
+
+/***************  BOOK APOINMENT  ***************/
+/** Format as margin, width, border, color, background, text-shadow, box-shadow, line-height, font size, font family,...for all the class, id, h1, h2,.. in the Book Appoinment **/
+div div div h2 {
+    font-family: oswald;
+    font-size: 1.5em;
+    color: #663333;
+    text-align: left;
+    padding-left: 1.5%;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+
+/**************  THE THIRD COLUMN FORMAT  **************/
+/** Format as margin, width, border, color, background, text-shadow, box-shadow, line-height, font size, font family,...for all the class, id, h1, h4, h5.. in the third column **/
+/** Upcoming Events format  **/
+div div div h1 {
+    font-family: oswald;
+    font-size: 1.5em;
+    color: #191c3f;
+    text-align: center;
+    padding-left: 1.5%;
+    font-weight: bold;
+    text-shadow: 0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+/** H4 format  **/
+div div div h4  {
+    font-family: oswald;
+    font-size: 1.5em;
+    color: #73818c;
+    text-align: left;
+    padding-left: 1.5%;
+    padding-top: 1.5%;
+}
+/** H5 format  **/
+div div div h5  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: #af8764;
+    text-align: center;
+    padding-left: 1.5%;
+    padding-bottom: 1.5%;
+    font-weight: bolder;
+
+}
+
+
+
+/************** FOOTER **************/
+/** Format as margin, padding, width, height, border, color, background, line-height, font size, font family, position,...for all the class, id, a.. in the footer **/
+footer
+{
+    position:relative;
+    clear:both;
+    width:auto;
+    height: 100%;
+    margin-top: auto;
+    background:#e1e1e1;
+    border-top: 5px solid #535d66;
+
+}
+/** id copyright format as margin, position, width, border, background, position **/
+#copyright
+{
+    background: #f7f7f7;
+    height:60px;
+    position:relative;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding-bottom: 15px;
+    border-top: 2px solid white;
+}
+/** Class wrapper format as margin, position, width, height, background, position, font-family **/
+#copyright .wrapper
+{
+    font-family: 'Open Sans', sans-serif;
+    padding-top:10px;
+    color: #000;
+    font-size:12px;
+    font-weight: bolder;
+    position:relative;
+    height: 100%;
+}
+/** Class social format as right, position, top **/
+#copyright .wrapper .social
+{
+    position:absolute;
+    right:0;
+    top:10px;
+}
+/** A format as transition, opacity, display, float of <a> in class social **/
+#copyright .wrapper .social a
+{
+    transition: opacity .25s ease;
+    opacity: 0.3;
+    margin-left: 12px;
+    display:block;
+    float:left;
+}
+#copyright .wrapper .social a:hover
+{
+    opacity: 0.7;
+}
+#copyright .wrapper a
+{
+    color: #191c3f;
+}
+
+#copyright .wrapper a:hover
+{
+    color: #cc9999;
+}
+/** Class hidden format as position **/
+.hidden
+{
+    position:absolute;
+    clip: rect(1px 1px 1px 1px); /* IE6 & 7 */
+        clip: rect(1px, 1px, 1px, 1px);
+}
+/** Class top format as float right and margin auto when user click to this button the website will go to the top of page  **/
+.top {
+    float: right;
+    margin: auto;
+}
+
+/******* SEE ALL ********/
+/** See all format as float, font size, line height, color, font weight, padding, font family **/
+#see-all {
+    float: right; 
+    font-size: 13px;
+    line-height: 15px;
+    color: #666;
+    font-weight: bolder;
+    padding-right: 2%;    
+    font-family: 'Open Sans', sans-serif;
+}
+/** See all format as float, font size, line height, color, font weight, padding, font family when moving the mouse **/
+#see-all:hover {
+    float: right; 
+    font-size: 13px;
+    line-height: 15px;
+    color: #cc9999;
+    font-weight: bolder;
+    padding-right: 2%;    
+    font-family: 'Open Sans', sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+/**  **/
+
+.ba {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.bb {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.b--black-10 {
+    border-color: rgba(0, 0, 0, .1);
+}
+
+.b--black-05 {
+    border-color: rgba(0, 0, 0, .05);
+}
+
+.br-100 {
+    border-radius: 100%;
+}
+
+.db {
+    display: block;
+}
+
+.dt {
+    display: table;
+}
+
+.dtc {
+    display: table-cell;
+}
+
+.fw4 {
+    font-weight: 400;
+}
+
+.fw6 {
+    font-weight: 600;
+}
+
+.button-reset::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.h2 {
+    height: 2rem;
+}
+
+.lh-title {
+    line-height: 1.25;
+}
+
+.mw6 {
+    max-width: 32rem;
+}
+
+.w2 {
+    width: 2rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.black-60 {
+    color: rgba(0, 0, 0, .6);
+}
+
+.black {
+    color: #000;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.pl3 {
+    padding-left: 1rem;
+}
+
+.pb2 {
+    padding-bottom: .5rem;
+}
+
+.pv1 {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}
+
+.mt0 {
+    margin-top: 0;
+}
+
+.mt2 {
+    margin-top: .5rem;
+}
+
+.mv0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.tr {
+    text-align: right;
+}
+
+.f6 {
+    font-size: .875rem;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.v-mid {
+    vertical-align: middle;
+}
+
+.dim {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+}
+
+.dim:hover, .dim:focus {
+    opacity: .5;
+    transition: opacity .15s ease-in;
+}
+
+.dim:active {
+    opacity: .8;
+    transition: opacity .15s ease-out;
+}
+
+.pointer:hover {
+    cursor: pointer;
+}
+
+@media screen and (min-width: 30em) {
+    .h3-ns {
+        height: 4rem;
+    }
+
+    .w3-ns {
+        width: 4rem;
+    }
+
+    .f5-ns {
+        font-size: 1rem;
+    }
+}
+
+
+
+/** Build out media query to make navigation responsive **/
+/** A format as padding, background, color, display, position, width, margin.... for the all button, images, texts, class, and id when changing device **/
+@media only screen and (max-width: 640px) {		 	
+    /** Make the menu button visible **/
+    /** A format as background-color, border, width, position,font-size,.. in header **/
+    header {
+        height: 15%;
+    }
+    #menu-icon {
+        Display: inline-block;
+        width: 100%;
+        height: 50%;
+        font-size: 35px;
+        text-align: center;
+        margin-right: 5%;
+        display: block;
+    }
+    /** Logo uses an image placeholder service with the featured image **/
+    #logo {
+        width: 100px;
+        display: block;
+    }
+    nav ul {
+        /** Hide the horizontal navigation list for small screens **/
+        display: none;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.8);
+        border: 1px solid #333;
+        line-height: 14px;
+        right: 0;
+        width: 50%;
+    }
+    nav li {
+        /** Stack the navigation links vertically **/
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    /** Reveal the navigation menu when the hamburger button is hovered over **/
+    nav:hover ul {
+        display: block;
+        margin-top: -10%;
+    }
+    nav:hover ul a {
+        /**  Make the links wider for greater accessibility with touch **/
+        display: block;
+        padding: 5%;
+        font-size: 1em;
+    }
+    /** the color of the hamburger menu button on hover for better visual feedback **/
+    nav:hover #menu-icon {
+        color: #cc9999;
+    }
+    /**Main**/
+    main {
+        margin-top: 25% ;
+    }
+    #gallery{
+        margin-top:20%
+    }
+    .navbar-form .form-group
+    {
+        margin-top:-12%;
+        /* margin-left: 30%; */
+        width:45%;
+    }
+    .container-fluid {
+        text-align: center;
+    }
+    /* Next & previous buttons */
+    a.prev,
+         a.next {
+         font-size: 15px;
+    }
+    /* Position the "next button" to the right */
+    a.next {
+        right: 5%;
+        border-radius: 3px 0 0 3px;
+    }
+    /* Number text format as color, font-size, padding, margin, position, background display on the image */
+    .numbertext {
+        font-size: 10px;
+    }
+    /******* FOOTER ******/
+    footer
+    {
+        width:100%;
+        height: 100%;
+        margin-bottom: 5%;
+    }
+    #copyright
+    {
+        height:100%;
+        display: block;
+        text-align: center;
+        font-size:10px;
+    }
+    div .social
+    {
+        margin-right: 15%;
+        padding-top:15%;
+    }    
+}

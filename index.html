@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 3 | COMP2112 ADVANCED CLIENT SIDE SCRIPTING</title>
+			<!-- link CSS, normalize to stylesheet -->
+			<link rel="stylesheet" href="css/styles.css" />   
+			<link rel="stylesheet" href="css/normalize.css" />
+			<link rel="stylesheet" href="css/tabs.css">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+			<meta http-equiv="X-UA-Compatible" content="ie=edge">
+			<!-- link JQuery script -->
+			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+			<!-- link Bootstrap -->
+			<link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+			<script language="javascript" src="js/jquery-1.9.1.min.js"></script>
+			<script language="javascript" src="js/index.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<!-- Create logo for company -->
+			<h1><a href="#" id="logo"><img src="images/logo_mail_204x84.png" alt="Logo" /></a></h1>
+			<nav id="floatingbar">
+				<!-- Function as a hamburger menu icon (http://copypastecharacter.com/graphic-shapes) -->
+				<a href="#" id="menu-icon">☰</a>
+				<ul>
+					<li><a href="#">SignOut</a></li>
+					<li><a href="#">Search</a></li>
+					<li><a href="#">Friends</a></li>
+					<li><a href="#">Photos</a></li>
+					<li><a href="#">Movies</a></li>
+					<li><a href="#" >Profile</a></li>
+					<li><a href="#" >Home</a></li>
+				</ul>
+			</nav>	
+		</header>
+	
+		<main>	
+			<section id="content">
+				<!-- Create a content has one row and three columns-->
+				<div class="container text-center">    
+					<div class="row">
+						<!-- Create the first column -->
+						<div class="col-sm-2 well">
+							<!-- Create detailed price information product and share information -->
+							<h1>EMAIL</h1>
+							<h3>ADD NEW EMAIL</h3>
+							<button id="submit_email" type="submit" class="btn btn-outline-success ">Add Email</button>
+						</div> <!-- End class col-sm-3 well -->
+						<div class="col-sm-3 well">
+							<div id=body_email></div>
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="panel panel-default text-left">
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-7 well">
+							<h2><strong>View Email Information</strong></h2>
+							<div id=view_subject></div>
+							<div class="row">
+								<div id=view_user class="col-sm-3"></div>
+								<div id=view_date class="col-sm-3"></div>
+								<div id=view_time class="col-sm-3"></div>
+							</div>
+							<div id=view_email></div>					
+						</div>
+					</div> <!-- End class container text-center -->
+				</div>
+			</section> <!-- End section -->
+		</main>
+		<footer>
+			<div class="container-fluid ">   
+				<div class="row">
+					<div class="col-sm-2">
+						<h3>ORDERING</h3><br />
+						<p>Flexible Payments</p><br />
+						<p>Secure Online Ordering</p><br />
+						<p>Gift Cards</p>
+					</div>
+					<div class="col-sm-2"> 
+						<h3>ABOUT JEWELRY COMPANY</h3><br />
+						<p>Flexible Payments</p><br />
+						<p>Our Guarantee</p><br />
+						<p>Charities</p>
+					</div>
+					<div class="col-sm-2"> 
+						<h3>RESOURCES</h3><br />
+						<p>NSCC Alumni Ring</p><br />
+						<p>Charm Credit Card</p><br />
+					</div>
+					<div class="col-sm-2"> 
+						<h3>BLOG</h3><br />
+						<p>FAQ</p><br />
+						<p>Ring Sizing</p>
+					</div>
+					<div class="col-sm-2">
+						<h3>CONTACT US</h3><br />
+						<p>Ask Online</p><br />
+						<p>Careers</p><br />
+						<p>Find a Store</p>
+					</div>
+					<div class="col-sm-2">
+						<h3>NEWSLETTER</h3><br />
+						<p>you'll get all the latest in diamond deals, hot & trending pieces, and store exclusives straight to your inbox.</p><br />
+					</div>
+				</div>
+			</div><br>
+			<section id="copyright">
+				<h3 class="hidden">Copyright notice</h3>
+				<div class="wrapper">
+				<!-- Create imagesto associate with Social Networking -->
+					<div class="social">
+						<a href="https://twitter.com" target="_blank" title="Click to view twitter" ><img src="images/twitter.png" alt="twitter" width="25"/></a>
+						<a href="https://www.facebook.com"  target="_blank" title="Click to view facebook"><img src="images/facebook.png" alt="facebook" width="25"/></a>
+						<a href="https://www.pinterest.ca" target="_blank" title="Click to view pinterest"><img src="images/pinterest.png" alt="pinterest" width="25"/></a>
+						<a href="https://www.linkedin.com" target="_blank" title="Click to view linkedin" ><img src="images/linkedin.png" alt="linkedin" width="25"/></a>
+						<a href="#" title="Back to Top" class="top"><img src="images/arrow_38x38_bottom.png" alt="Back to Top" width="38" height="38" /></a>
+					</div>
+					Copyright 2018 COMPANY. <a href="">Privacy | </a><a href="">Site Map | </a><a href="">Contact Us.</a>
+				</div>
+			</section>
+		</footer>
+	</body>
+</html>
